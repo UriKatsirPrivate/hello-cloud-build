@@ -1,0 +1,11 @@
+steps:
+  - name: "gcr.io/cloud-builders/gcloud"
+    args:
+      - functions
+      - deploy
+      - helloCloudBuild
+      - --source=.
+      - --trigger-http
+      - --runtime=nodejs8
+      - --allow-unauthenticated
+      - --ingress-settings=all
