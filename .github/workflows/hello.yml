@@ -33,3 +33,10 @@ jobs:
           #         commands: # optional
           # Takes a raw string that executes on the GCloud Docker image.
           command: gcloud builds submit
+      - name: Google Cloud Platform (GCP) CLI - gcloud
+        uses: actions-hub/gcloud@294.0.1
+        with:
+          # Arguments for the CLI command
+          args: gcloud builds submit
+          # cli command to run (gcloud and gsutil available)
+          cli: gcloud # optional, default is gcloud
