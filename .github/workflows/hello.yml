@@ -32,4 +32,4 @@ jobs:
           # Takes an array of raw strings that executes on the GCloud Docker image.
           #         commands: # optional
           # Takes a raw string that executes on the GCloud Docker image.
-          command: gcloud builds submit --config cloudbuild.yaml .
+          command: gcloud builds submit
