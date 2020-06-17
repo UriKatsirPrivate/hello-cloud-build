@@ -21,18 +21,18 @@ jobs:
       #     - uses: convictional/gcp-github-action@v1.0.1
 
       # Runs a single command using the runners shell
-      - name: GCP Github Action
-        uses: convictional/gcp-github-action@v1.0.1
+      # - name: GCP Github Action
+      #   uses: convictional/gcp-github-action@v1.0.1
 
-        with:
-          # These are the IAM credentials that will be set up.
-          #         application_credentials: # optional
-          # The project id that the commands will be associated with.
-          project_id: uri-test
-          # Takes an array of raw strings that executes on the GCloud Docker image.
-          #         commands: # optional
-          # Takes a raw string that executes on the GCloud Docker image.
-          command: gcloud builds submit
+      #   with:
+      #     # These are the IAM credentials that will be set up.
+      #     #         application_credentials: # optional
+      #     # The project id that the commands will be associated with.
+      #     project_id: uri-test
+      #     # Takes an array of raw strings that executes on the GCloud Docker image.
+      #     #         commands: # optional
+      #     # Takes a raw string that executes on the GCloud Docker image.
+      #     command: gcloud builds submit
       - name: Google Cloud Platform (GCP) CLI - gcloud
         uses: actions-hub/gcloud@294.0.1
         with:
