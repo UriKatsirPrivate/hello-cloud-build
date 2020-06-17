@@ -8,3 +8,4 @@ steps:
       - --trigger-http
       - --runtime=nodejs8
       - --allow-unauthenticated
+      - --ingress-settings=all
