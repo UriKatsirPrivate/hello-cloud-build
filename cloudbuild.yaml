@@ -3,7 +3,7 @@ steps:
     args:
       - functions
       - deploy
-      - helloGET
+      - helloCloudBuild
       - --source=.
       - --trigger-http
       - --runtime=nodejs8
