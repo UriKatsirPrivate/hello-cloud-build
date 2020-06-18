@@ -27,7 +27,7 @@ jobs:
           # The file path that the file will be sourced from. This can be either a local file or GCP storage file. GCP storage file should lead with gs://.
           source_file: index.js
           # The file path that the file will be uploaded to. This can be either a local file or GCP storage file.
-          destination_file: gs://test-1-public/index.js
+          destination_file: gs://uri-test-public/index.js
           # These are the IAM credentials for accessing the GCP bucket.
           # application_credentials: # optional
           project_id: uri-test # optional
