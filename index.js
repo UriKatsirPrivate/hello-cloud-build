@@ -4,6 +4,6 @@
  * @param {Object} res Cloud Function response context.
  */
 exports.helloCloudBuild = (req, res) => {
-  let message = req.query.message || req.body.message || 'Hello Uri, this is a Demo Website-Demo Demo';
+  let message = req.query.message || req.body.message || 'Hello Uri, this is a Demo index file';
   res.status(200).send(message);
 };
