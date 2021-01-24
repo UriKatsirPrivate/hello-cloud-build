@@ -27,7 +27,7 @@ jobs:
           # These are the IAM credentials for accessing the GCP bucket.
           # application_credentials: # optional
           project_id: uri-test # optional
-          # The action to be performed. This defaults to cp and isnt implemented yet.
+          # The action to be performed. This defaults to cp and isn't implemented yet.
           action: cp # optional
           # # Additional flags to be passed in.
           # flags: # optional

@@ -10,7 +10,9 @@
         "**/.vscode": true,
         ".vscode": true,
         "**/LICENSE": true,
-        "LICENSE": true
+        "LICENSE": true,
+        "**/.gitattributes": true,
+        ".gitattributes": true
     },
     "explorerExclude.backup": null
 }
