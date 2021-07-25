@@ -6,6 +6,6 @@ steps:
       - helloCloudBuild
       - --source=.
       - --trigger-http
-      - --runtime=nodejs8
+      - --runtime=nodejs14
       - --allow-unauthenticated
       - --ingress-settings=all
