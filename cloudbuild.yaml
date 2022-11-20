@@ -6,7 +6,7 @@ steps:
       - gcloud
       - functions
       - deploy
-      - helloCloudBuild
+      - hello-cloud-build
       - --region=us-central1
       - --source=.
       - --trigger-http
