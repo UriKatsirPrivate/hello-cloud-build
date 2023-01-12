@@ -103,3 +103,9 @@ dist
 # TernJS port file
 .tern-port
 .DS_Store
+.idea/hello-cloud-build.iml
+.idea/misc.xml
+.idea/.gitignore
+.idea/modules.xml
+.idea/vcs.xml
+.vscode/settings.json
